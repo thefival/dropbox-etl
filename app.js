@@ -9,17 +9,17 @@ const path = require('path')
 
 const dbx = new Dropbox({
   accessToken:
-    'sl.BdgbLEKnTXD_nYJsr3-gai1ZHslkSaoZ0-RQ4Hxm1BLQJyjTri0k6_82unyoP0jBsBWoAN6w6M8YYSoJ7kaSumGxUDbElv9UbZ1pGtHnUFtc8ZjuJs-bUMt3z39O7pyKcOCpXRJVKJg',
+    '#',
 })
 
-process.env.AWS_ACCESS_KEY_ID = 'AKIAYJCGAPMEAFCBAQGZ'
-process.env.AWS_SECRET_ACCESS_KEY = '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'
+process.env.AWS_ACCESS_KEY_ID = '#'
+process.env.AWS_SECRET_ACCESS_KEY = '#'
 
 const pool = mysql.createPool({
   connectionLimit: 16,
   host: 'localhost',
   user: 'root',
-  password: 'bangarang',
+  password: '#',
   database: 'absdropbox',
 })
 
